@@ -2,6 +2,7 @@
 <addon id="script.screensaver.multi_slideshow" name="Multi Slideshow Screensaver" version="0.1.1" provider-name="Tristan Fischer (sphere@dersphere.de)">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10" optional="true"/>
     </requires>
     <extension point="xbmc.ui.screensaver" library="screensaver.py" />
     <extension point="xbmc.python.script" library="screensaver.py" />
